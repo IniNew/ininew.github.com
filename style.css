@@ -4,6 +4,7 @@
   --color-text: #000000;
   --color-accent: #0066ff;
   --color-border: #e0e0e0;
+  --color-muted: #666666;
 }
 
 /* Reset and base styles */
@@ -100,7 +101,7 @@ a:hover {
 
 .case-study-meta {
   font-size: 14px;
-  color: #666;
+  color: var(--color-muted);
   margin-bottom: 15px;
 }
 
